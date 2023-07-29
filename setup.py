@@ -10,7 +10,7 @@ from setuptools import setup, find_packages
 setup(
     name='dm_api_account',
     version='0.0.2',
-    packages=find_packages(),
+    packages=find_packages('dm_api_account.apis', 'dm_api_account.models'),
     url='https://github.com/kberezuck/dm_api_account.git',
     license='MIT',
     author='Ksenia_Berezuck',
