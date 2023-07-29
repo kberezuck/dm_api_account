@@ -1,6 +1,4 @@
-from setuptools import setup, find_packages
-
-packages = find_packages()
+from setuptools import setup
 
 # REQUIRES = [
 #     'requests',
