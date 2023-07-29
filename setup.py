@@ -2,7 +2,7 @@ from setuptools import setup
 
 REQUIRES = [
     'requests',
-    'restclient',
+    'git+https://github.com/kberezuck/restclient.git',
     'pydantic',
     'structlog',
     'allure-pytest',
