@@ -1,13 +1,12 @@
 from setuptools import setup
 
-REQUIRES = [
-    'requests',
-    'git+https://github.com/kberezuck/restclient.git',
-    'pydantic',
-    'structlog',
-    'allure-pytest',
-
-]
+# REQUIRES = [
+#     'requests',
+#     'pydantic',
+#     'structlog',
+#     'allure-pytest',
+#
+# ]
 setup(
     name='dm_api_account',
     version='0.0.1',
@@ -16,6 +15,6 @@ setup(
     license='MIT',
     author='Ksenia_Berezuck',
     author_email='',
-    install_requires=REQUIRES,
+    # install_requires=REQUIRES,
     description='dm_api_account with allure and login'
 )

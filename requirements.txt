@@ -1,0 +1,6 @@
+git+https://github.com/kberezuck/restclient.git
+requests
+
+pydantic
+structlog
+allure-pytest
