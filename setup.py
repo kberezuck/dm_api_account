@@ -12,7 +12,7 @@ packages = find_packages()
 setup(
     name='dm_api_account',
     version='0.0.2',
-    packages=['find_packages()'],
+    packages=['dm_api_account'],
     url='https://github.com/kberezuck/dm_api_account.git',
     license='MIT',
     author='Ksenia_Berezuck',
